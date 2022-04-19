@@ -1,0 +1,106 @@
+-- Made by Airbus A321 Neo XLR#0001
+
+-- Instances:
+
+local CountyDestroyer = Instance.new("ScreenGui")
+local Openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+local Mainidiots = Instance.new("Frame")
+local Branding = Instance.new("TextLabel")
+local Close = Instance.new("TextLabel")
+local Dex = Instance.new("TextButton")
+local InfYeild = Instance.new("TextButton")
+local OPFinality = Instance.new("TextButton")
+
+--Properties:
+
+CountyDestroyer.Name = "County Destroyer"
+CountyDestroyer.Parent = game.CoreGUI
+CountyDestroyer.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Openmain.Name = "Open main"
+Openmain.Parent = CountyDestroyer
+Openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Openmain.Position = UDim2.new(0.00381513918, 0, 0.374247879, 0)
+Openmain.Size = UDim2.new(0, 100, 0, 37)
+
+open.Name = "open"
+open.Parent = Openmain
+open.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+open.Position = UDim2.new(0.0112338634, 0, 0, 0)
+open.Size = UDim2.new(0, 98, 0, 37)
+open.Font = Enum.Font.SourceSans
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(89, 255, 0)
+open.TextSize = 14.000
+open.TextStrokeColor3 = Color3.fromRGB(89, 255, 0)
+
+Mainidiots.Name = "Main idiots"
+Mainidiots.Parent = CountyDestroyer
+Mainidiots.BackgroundColor3 = Color3.fromRGB(4, 18, 14)
+Mainidiots.Position = UDim2.new(0.234709471, 0, 0.296028882, 0)
+Mainidiots.Size = UDim2.new(0, 640, 0, 342)
+main.Draggable = true
+Branding.Name = "Branding"
+Branding.Parent = Mainidiots
+Branding.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+Branding.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Branding.Size = UDim2.new(0, 599, 0, 50)
+Branding.Font = Enum.Font.SourceSans
+Branding.Text = "County Destroyer"
+Branding.TextColor3 = Color3.fromRGB(89, 255, 0)
+Branding.TextSize = 25.000
+Branding.TextStrokeColor3 = Color3.fromRGB(4, 255, 0)
+
+Close.Name = "Close"
+Close.Parent = Mainidiots
+Close.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.Position = UDim2.new(0.93707484, 0, 0, 0)
+Close.Size = UDim2.new(0, 37, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(89, 255, 0)
+Close.TextSize = 25.000
+Close.TextStrokeColor3 = Color3.fromRGB(4, 255, 0)
+
+Dex.Name = "Dex"
+Dex.Parent = Mainidiots
+Dex.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+Dex.Position = UDim2.new(0.2727772, 0, 0.171807364, 0)
+Dex.Size = UDim2.new(0, 145, 0, 50)
+Dex.Font = Enum.Font.SourceSans
+Dex.Text = "Sentinel Dex"
+Dex.TextColor3 = Color3.fromRGB(89, 255, 0)
+Dex.TextSize = 14.000
+Dex.TextStrokeColor3 = Color3.fromRGB(89, 255, 0)
+Dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/0J8CEb1J"))()
+end)
+
+InfYeild.Name = "Inf Yeild"
+InfYeild.Parent = Mainidiots
+InfYeild.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+InfYeild.Position = UDim2.new(0.0112338513, 0, 0.171807364, 0)
+InfYeild.Size = UDim2.new(0, 145, 0, 50)
+InfYeild.Font = Enum.Font.SourceSans
+InfYeild.Text = "FE Admin"
+InfYeild.TextColor3 = Color3.fromRGB(89, 255, 0)
+InfYeild.TextSize = 14.000
+InfYeild.TextStrokeColor3 = Color3.fromRGB(89, 255, 0)
+InfYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+OPFinality.Name = "OPFinality"
+OPFinality.Parent = Mainidiots
+OPFinality.BackgroundColor3 = Color3.fromRGB(0, 39, 7)
+OPFinality.Position = UDim2.new(0.520608842, 0, 0.171807364, 0)
+OPFinality.Size = UDim2.new(0, 145, 0, 50)
+OPFinality.Font = Enum.Font.SourceSans
+OPFinality.Text = "OPFinality"
+OPFinality.TextColor3 = Color3.fromRGB(89, 255, 0)
+OPFinality.TextSize = 14.000
+OPFinality.TextStrokeColor3 = Color3.fromRGB(89, 255, 0)
+OPFinality.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/U290qDC2'),true))()
+end)
